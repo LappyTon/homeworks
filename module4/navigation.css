@@ -1,0 +1,38 @@
+.navCont{
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+}
+.navigation:hover {
+    color: #F38181;
+    border-bottom: 3px solid #F38181;
+    padding-bottom: 12px;
+}
+.Logo:hover {
+    color: #F38181;
+    border-bottom: 3px solid #F38181;
+    padding-bottom: 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 28px;
+}
+.navigation {
+    color:#95E1D3;
+    font-size:14px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.Logo {
+    color: #95e1d3;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
