@@ -1,0 +1,74 @@
+.main {
+    width: 100%;
+}
+.main_wrapper {
+    width: 910px;
+    margin: 0 auto;
+}
+.main_section {
+    width: 422px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 131px;
+}
+
+.main_section_img {
+    width: 422px;
+    height: 280px;
+    display: block;
+    margin-bottom: 31px;
+}
+
+.main_section_text_lifstyle {
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #B4ad9e;
+}
+
+.main_section_text_zag {
+    margin-bottom: 39px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.main_section_text_content {
+    margin-bottom: 0;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.main_section:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+.main_section:nth-child(5n+0) {
+    margin-bottom: 54px;
+}
+.main_section:last-child {
+    margin-bottom: 54px;
+}
+/* Це малий футтер */
+
+.fotter {
+    margin-bottom: 70px;
+}
+
+.button {
+    padding: 21px 34px 22px 34px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #626262;
+    font-weight: 400;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    border: 2px solid #626262;
+    outline: none;
+}

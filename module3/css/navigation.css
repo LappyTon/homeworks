@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    padding-top: 77px;
+    padding-bottom: 102px;
+}
+
+.navigation {
+    width: 590px;
+    margin: 0 auto;
+}
+
+.nav_menu {
+    display: block;
+} 
+
+.menu_item {
+    display: inline-block;
+    margin-right: 121px;
+}
+
+.menu_item_link {
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu_item_link:hover {
+    color: #8ccef8;
+}
+
+.menu_item:nth-child(2n+0) {
+    margin-right: 103px;
+}
+.menu_item:nth-child(3n+0) {
+    margin-right: 95px;
+}
+.menu_item:last-child {
+    margin: 0;
+}
